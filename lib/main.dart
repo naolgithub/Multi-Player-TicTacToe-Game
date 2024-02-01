@@ -6,10 +6,10 @@ import 'screens/main_menu_screen.dart';
 import 'utils/colors.dart';
 
 void main() {
-  //Utils contains repeated functions,
+  //1.Utils contains repeated functions,
   //colors or global variables.
 
-  //Widgets contains reusable widgets.
+  //2.Widgets contains reusable widgets.
   WidgetsFlutterBinding.ensureInitialized();
   runApp(const MyApp());
 }
